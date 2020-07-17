@@ -16,6 +16,7 @@ RUN composer install \
 # Build the Docker image for Drupal.
 FROM $DRUPAL_BASE_IMAGE
 
+#todo change this
 ENV DRUPAL_MD5 aedc6598b71c5393d30242b8e14385e5
 
 # Copy precompiled codebase into the container.

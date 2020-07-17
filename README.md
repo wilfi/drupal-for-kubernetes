@@ -15,7 +15,7 @@ Please read through the [project documentation](docs/README.md) for details abou
   1. Build the site's docker image from the Dockerfile:
 
      ```
-     docker build -t geerlingguy/drupal-for-kubernetes .
+     docker build -t wils/drupal:latest .
      ```
 
   1. Run the local development environment:
@@ -63,3 +63,4 @@ MIT license.
 ## Author Information
 
 Created in 2019 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/) and [Ansible for Kubernetes](https://www.ansibleforkubernetes.com).
+Modified by Wilfred.
